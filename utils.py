@@ -3,4 +3,4 @@ import streamlit as st
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("Amazon bestseller books dataset.csv")
+    return pd.read_csv("Amazon_BestSelling_Books_500.csv")
